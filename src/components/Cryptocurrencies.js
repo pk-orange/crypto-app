@@ -1,7 +1,6 @@
 import { current } from '@reduxjs/toolkit';
 import { Card, Col, Input, Row } from 'antd';
 import millify from 'millify';
-import { connection } from 'mongoose';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useGetCryptosQuery } from '../services/cryptoApi';
